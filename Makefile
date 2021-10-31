@@ -23,7 +23,7 @@ clean:
 
 dep: clean
 	@mkdir "build"
-	@cd build && conan install .. --build=missing
+	@cd build && conan install .. -s build_type=Release -s compiler.libcxx=libstdc++11 -s cppstd=20 --build=missing
 
 build:
 	cmake -S . -B build

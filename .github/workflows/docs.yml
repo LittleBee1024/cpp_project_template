@@ -11,7 +11,7 @@ jobs:
       - name: install
         run: sudo apt-get update && sudo pip install conan && sudo apt-get install -y doxygen
       - name: build doc
-        run: make rebuild
+        run: make
       - name: doc deploy
         uses: peaceiris/actions-gh-pages@v2
         env:
