@@ -16,6 +16,7 @@ conan_basic_setup()
 
 # Source Code
 add_subdirectory(src)
+add_subdirectory(docs)
 
 # Unit Test
 enable_testing()

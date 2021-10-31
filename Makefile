@@ -3,7 +3,9 @@
 # cmake (version 3.21 or above)
 # conan (version 1.41 or above)
 
-all: help
+all: rebuild
+
+rebuild: clean dep build
 
 help:
 	@echo "targets:"
@@ -14,7 +16,7 @@ help:
 	@echo "\trelease - build release version"
 	@echo "\tdebug   - build debug version"
 
-.PHONY: clean dep release debug build run
+.PHONY: clean dep release debug build rebuild run
 
 clean:
 	@rm -rf ./build
