@@ -11,7 +11,7 @@ jobs:
       - name: install
         run: sudo apt-get update && sudo apt-get install -y doxygen && sudo apt-get install -y graphviz
       - name: build doc
-        run: mkdir rebuild
+        run: make rebuild
       - name: doc deploy
         uses: peaceiris/actions-gh-pages@v2
         env:
