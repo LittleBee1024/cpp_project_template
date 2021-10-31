@@ -6,3 +6,4 @@ To build/run the project, please make sure following softwares are installed in 
 * gcc/g++ (version 11 or above)
 * cmake (version 3.21 or above)
 * conan (version 1.41 or above)
+* doxygen (optional for cpp docs)
