@@ -11,3 +11,4 @@ MARKDOWN_SUPPORT       = YES
 EXTRACT_ALL            = YES
 # Disable left side navigation tree
 GENERATE_TREEVIEW      = NO
+PROJECT_LOGO = @PROJECT_SOURCE_DIR@/docs/logo_50_50.png
