@@ -19,6 +19,8 @@ if(BUILD_DOCUMENTATION)
     # Doxygen Output
     set(DOXYGEN_OUTPUT_DIR ${CMAKE_BINARY_DIR}/doxygen)
     file(MAKE_DIRECTORY ${DOXYGEN_OUTPUT_DIR})
+    # Copy files to index folder for markdown file linkages
+    file(COPY ${CMAKE_CURRENT_SOURCE_DIR} DESTINATION ${DOXYGEN_OUTPUT_DIR}/html)
     set(DOXYGEN_INDEX_FILE ${DOXYGEN_OUTPUT_DIR}/html/index.html)
 
     add_custom_target(doxygen ALL
