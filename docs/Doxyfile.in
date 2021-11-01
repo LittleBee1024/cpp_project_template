@@ -3,12 +3,13 @@ PROJECT_NUMBER         = "@CMAKE_PROJECT_VERSION@"
 STRIP_FROM_PATH        = @PROJECT_SOURCE_DIR@ \
                          @PROJECT_BINARY_DIR@
 INPUT                  = @doxy_main_page@ \
-                         @PROJECT_SOURCE_DIR@/src
-FILE_PATTERNS          = *.cpp *.C *.c *.h *.hpp
+                         @PROJECT_SOURCE_DIR@/src \
+                         @PROJECT_SOURCE_DIR@/docs
+FILE_PATTERNS          = *.cpp *.C *.c *.h *.hpp *.md
 RECURSIVE              = YES
 USE_MDFILE_AS_MAINPAGE = @doxy_main_page@
 MARKDOWN_SUPPORT       = YES
 EXTRACT_ALL            = YES
 # Disable left side navigation tree
-GENERATE_TREEVIEW      = NO
+GENERATE_TREEVIEW      = YES
 PROJECT_LOGO = @PROJECT_SOURCE_DIR@/docs/logo_50_50.png

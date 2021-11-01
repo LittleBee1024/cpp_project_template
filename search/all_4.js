@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['op_10',['Op',['../classDEMO_1_1Op.html',1,'DEMO']]],
-  ['ops_2ecpp_11',['ops.cpp',['../ops_8cpp.html',1,'']]],
-  ['ops_2eh_12',['ops.h',['../ops_8h.html',1,'']]]
+  ['m_5fname_10',['m_name',['../classDEMO_1_1Animal.html#ab398ee8b6bb9c4c10f7f94d11243c94a',1,'DEMO::Animal']]],
+  ['m_5fweight_11',['m_weight',['../classDEMO_1_1Animal.html#ae0a326da13ea5f4370dfde0a120f0a58',1,'DEMO::Animal']]]
 ];
