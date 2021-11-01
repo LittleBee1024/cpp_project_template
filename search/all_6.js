@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['op_12',['Op',['../classDEMO_1_1Op.html',1,'DEMO']]],
-  ['ops_2ecpp_13',['ops.cpp',['../ops_8cpp.html',1,'']]],
-  ['ops_2eh_14',['ops.h',['../ops_8h.html',1,'']]]
+  ['set_5fweight_14',['set_weight',['../classDEMO_1_1Animal.html#ad5f63f21389b76c3c331ce0db9a5df20',1,'DEMO::Animal']]],
+  ['subtract_5fnumbers_15',['subtract_numbers',['../classDEMO_1_1Op.html#ad4c163aed78be4186ac69b358e3eba7a',1,'DEMO::Op']]]
 ];

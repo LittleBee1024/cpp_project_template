@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['demo_6',['DEMO',['../namespaceDEMO.html',1,'']]],
-  ['dog_7',['Dog',['../classDEMO_1_1Dog.html',1,'DEMO::Dog'],['../classDEMO_1_1Dog.html#aec1a3558b7d4d307742deeef129f2e36',1,'DEMO::Dog::Dog()']]],
-  ['dump_8',['dump',['../classDEMO_1_1Animal.html#a9ce9cb56ea69a2d9d7bc6d9b977da490',1,'DEMO::Animal::dump()'],['../classDEMO_1_1Dog.html#a87331879cabf26bba51805a6de94c828',1,'DEMO::Dog::dump()'],['../classDEMO_1_1Bird.html#a206a08228b188bbc69afc074ef651b90',1,'DEMO::Bird::dump()']]]
+  ['m_5fname_8',['m_name',['../classDEMO_1_1Animal.html#ab398ee8b6bb9c4c10f7f94d11243c94a',1,'DEMO::Animal']]],
+  ['m_5fweight_9',['m_weight',['../classDEMO_1_1Animal.html#ae0a326da13ea5f4370dfde0a120f0a58',1,'DEMO::Animal']]]
 ];

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['set_5fweight_36',['set_weight',['../classDEMO_1_1Animal.html#ad5f63f21389b76c3c331ce0db9a5df20',1,'DEMO::Animal']]],
-  ['subtract_5fnumbers_37',['subtract_numbers',['../classDEMO_1_1Op.html#ad4c163aed78be4186ac69b358e3eba7a',1,'DEMO::Op']]]
+  ['_7eanimal_34',['~Animal',['../classDEMO_1_1Animal.html#aa931d18d3be32a309904975033564e41',1,'DEMO::Animal']]]
 ];
