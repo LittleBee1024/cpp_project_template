@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.21)
 
 # Setting a project
-project(cpp_project_template VERSION 1.0
+project(C++_Project_Template VERSION 1.0
         DESCRIPTION "C++20 Project Template"
         LANGUAGES CXX)
 
