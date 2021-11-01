@@ -1,4 +1,4 @@
-name: Doc Publication
+name: build
 
 on: [push]
 
