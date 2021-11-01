@@ -66,6 +66,24 @@ $(function() {
 <div class="title">cpp_project_template Documentation</div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="toc"><h3>Table of Contents</h3>
+<ul><li class="level1"><a href="#autotoc_md0">Introduction</a></li>
+<li class="level1"><a href="#autotoc_md1">Requirements</a></li>
+<li class="level1"><a href="#autotoc_md2">Markdown Syntax</a><ul><li class="level2"><a href="#autotoc_md3">Block quotes</a></li>
+<li class="level2"><a href="#autotoc_md4">Code Blocks</a></li>
+<li class="level2"><a href="#autotoc_md5">Code spans</a></li>
+<li class="level2"><a href="#autotoc_md6">Emphasis</a></li>
+<li class="level2"><a href="#autotoc_md7">Strikethrough</a></li>
+<li class="level2"><a href="#autotoc_md8">Links</a><ul><li class="level3"><a href="#autotoc_md9">Inline Links</a></li>
+<li class="level3"><a href="#autotoc_md10">Automatic Linking</a></li>
+</ul>
+</li>
+<li class="level2"><a href="#autotoc_md11">Images</a></li>
+<li class="level2"><a href="#autotoc_md12">Tables</a></li>
+</ul>
+</li>
+</ul>
+</div>
 <div class="textblock"><h1 align="center"><img src="docs/logo.png" alt="Logo" width="200" class="inline"/> </h1>
 <h1><a class="anchor" id="autotoc_md0"></a>
 Introduction</h1>
@@ -76,8 +94,76 @@ Requirements</h1>
 <li>gcc/g++ (version 11 or above)</li>
 <li>cmake (version 3.21 or above)</li>
 <li>conan (version 1.41 or above)</li>
-<li>doxygen (optional for cpp docs) </li>
+<li>doxygen (optional for cpp docs)</li>
 </ul>
+<h1><a class="anchor" id="autotoc_md2"></a>
+Markdown Syntax</h1>
+<h2><a class="anchor" id="autotoc_md3"></a>
+Block quotes</h2>
+<blockquote class="doxtable">
+<p>This is a block quote spanning multiple lines </p>
+</blockquote>
+<h2><a class="anchor" id="autotoc_md4"></a>
+Code Blocks</h2>
+<div class="fragment"><div class="line"><span class="keywordtype">int</span> main()</div>
+<div class="line">{</div>
+<div class="line">  <span class="keywordflow">return</span> 0;</div>
+<div class="line">}</div>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md5"></a>
+Code spans</h2>
+<ul>
+<li>Function <code>printf()</code> code spans</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md6"></a>
+Emphasis</h2>
+<ul>
+<li><em>single asterisks</em></li>
+<li><em>single underscores</em></li>
+<li><b>double asterisks</b></li>
+<li><b>double underscores</b></li>
+</ul>
+<h2><a class="anchor" id="autotoc_md7"></a>
+Strikethrough</h2>
+<ul>
+<li><strike>double tilde</strike></li>
+</ul>
+<h2><a class="anchor" id="autotoc_md8"></a>
+Links</h2>
+<h3><a class="anchor" id="autotoc_md9"></a>
+Inline Links</h3>
+<ul>
+<li><a href="./docs/logo.png">The link text</a></li>
+</ul>
+<h3><a class="anchor" id="autotoc_md10"></a>
+Automatic Linking</h3>
+<ul>
+<li><a href="http://www.example.com">http://www.example.com</a></li>
+<li><a href="https://www.example.com">https://www.example.com</a></li>
+<li><a href="ftp://www.example.com">ftp://www.example.com</a></li>
+<li><a href="#" onclick="location.href='mai'+'lto:'+'add'+'re'+'ss@'+'ex'+'amp'+'le'+'.co'+'m'; return false;">addre<span style="display: none;">.nosp@m.</span>ss@e<span style="display: none;">.nosp@m.</span>xampl<span style="display: none;">.nosp@m.</span>e.co<span style="display: none;">.nosp@m.</span>m</a></li>
+<li><a href="#" onclick="location.href='mai'+'lto:'+'add'+'re'+'ss@'+'ex'+'amp'+'le'+'.co'+'m'; return false;">addre<span style="display: none;">.nosp@m.</span>ss@e<span style="display: none;">.nosp@m.</span>xampl<span style="display: none;">.nosp@m.</span>e.co<span style="display: none;">.nosp@m.</span>m</a></li>
+</ul>
+<h2><a class="anchor" id="autotoc_md11"></a>
+Images</h2>
+<ul>
+<li><img src="./docs/logo.png" alt="Caption text" class="inline"/></li>
+<li><img src="./docs/logo.png" alt="Caption text" title="Image title" class="inline"/></li>
+<li><div class="image">
+<img src="./docs/logo.png" alt=""/>
+<div class="caption">
+Caption text</div></div>
+   </li>
+</ul>
+<h2><a class="anchor" id="autotoc_md12"></a>
+Tables</h2>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">First Header </th><th class="markdownTableHeadNone">Second Header  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Content Cell </td><td class="markdownTableBodyNone">Content Cell  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Content Cell </td><td class="markdownTableBodyNone">Content Cell  </td></tr>
+</table>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 <!-- start footer part -->
