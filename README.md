@@ -2,6 +2,8 @@
   <img alt="Logo" src="docs/logo.png" width="200">
 </h1>
 
+[TOC]
+
 # Introduction
 C++20 project template with google test and conan package manager
 
@@ -12,3 +14,51 @@ To build/run the project, please make sure following softwares are installed in 
 * conan (version 1.41 or above)
 * doxygen (optional for cpp docs)
 
+# Markdown Syntax
+
+## Block quotes
+> This is a block quote
+> spanning multiple lines
+
+## Code Blocks
+```cpp
+int main()
+{
+  return 0;
+}
+```
+
+## Code spans
+* Function `printf()` code spans
+
+## Emphasis
+* *single asterisks*
+* _single underscores_
+* **double asterisks**
+* __double underscores__
+
+## Strikethrough
+* ~~double tilde~~
+
+## Links
+
+### Inline Links
+* [The link text](./docs/logo.png)
+
+### Automatic Linking
+* <http://www.example.com>
+* <https://www.example.com>
+* <ftp://www.example.com>
+* <mailto:address@example.com>
+* <address@example.com>
+
+## Images
+* ![Caption text](./docs/logo.png)
+* ![Caption text](./docs/logo.png "Image title")
+* ![Caption text](@ref ./docs/logo.png)
+
+## Tables
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell

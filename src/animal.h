@@ -50,7 +50,7 @@ protected:
 };
 
 /**
- * @brief Dog class inherits from Animal class
+ * @brief Dog class inherits from \ref Animal class
  * 
  */
 class Dog: public Animal
@@ -72,7 +72,7 @@ public:
 };
 
 /**
- * @brief Bird class inherits from Animal class
+ * @brief Bird class inherits from \ref Animal class
  * 
  */
 class Bird: public Animal
