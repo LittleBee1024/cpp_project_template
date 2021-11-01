@@ -40,6 +40,17 @@ int main()
 ## Strikethrough
 * ~~double tilde~~
 
+## Code References
+
+### Class Reference
+* [animal](@ref DEMO::Animal)
+
+### Function Reference
+* [set_weight](@ref DEMO::Animal::set_weight)
+
+### File Reference
+* [animal.h](@ref animal.h)
+
 ## Links
 
 ### Inline Links
@@ -62,3 +73,6 @@ First Header  | Second Header
 ------------- | -------------
 Content Cell  | Content Cell
 Content Cell  | Content Cell
+
+# Other Documentation
+[internal doc](@ref md_docs_internal)
