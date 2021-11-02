@@ -1,8 +1,5 @@
-<h1 align="center">
-  <img alt="Logo" src="docs/logo.png" width="200">
-</h1>
-
 <p align="center">
+  <img alt="Logo" src="docs/logo.png" width="200"><br>
   <a href="https://github.com/LittleBee1024/cpp_project_template/actions"><img
     src="https://github.com/littlebee1024/cpp_project_template/workflows/build/badge.svg?branch=main"
     alt="Build"
