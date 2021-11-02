@@ -3,10 +3,7 @@
 </h1>
 
 <p align="center">
-  <a href="https://github.com/LittleBee1024/cpp_project_template/actions"><img
-    src="https://github.com/littlebee1024/cpp_project_template/workflows/build/badge.svg?branch=main"
-    alt="Build"
-  /></a>
+  A c++20 project template with canon package manager, google test and doxygen documentation, to help setup your c++ project easily.
 </p>
 
 [TOC]
