@@ -2,9 +2,12 @@
   <img alt="Logo" src="docs/logo.png" width="200">
 </h1>
 
-<p align="center">
-  A c++20 project template with canon package manager, google test and doxygen documentation, to help setup your c++ project easily.
-</p>
+<CENTER>
+  A c++20 project template with 
+  <a href="https://conan.io/">canon package manager</a>, 
+  <a href="https://google.github.io/googletest/">google test</a> and 
+  <a href="https://littlebee1024.github.io/cpp_project_template/">doxygen documentation</a>, to help setup your c++ project easily.
+</CENTER>
 
 [TOC]
 
