@@ -6,9 +6,9 @@
 <p align="center">
   <strong>
   A c++20 project template with 
-  <a href="https://conan.io/">canon package manager</a>, 
-  <a href="https://google.github.io/googletest/">google test</a> and 
-  <a href="https://littlebee1024.github.io/cpp_project_template/">doxygen documentation</a>, to help setup your c++ project easily.
+  <a href="https://conan.io/" target="_blank">canon package manager</a>, 
+  <a href="https://google.github.io/googletest/" target="_blank">google test</a> and 
+  <a href="https://littlebee1024.github.io/cpp_project_template/" target="_blank">doxygen documentation</a>, to help setup your c++ project easily.
   </strong>
 </p>
 </CENTER>
