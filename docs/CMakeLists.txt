@@ -10,21 +10,21 @@ if(BUILD_DOCUMENTATION)
         message(FATAL_ERROR "Doxygen is needed to build the documentation.")
     endif()
 
-    # Doxygen Input
+    # Doxygen Config
     set(doxy_main_page ${CMAKE_SOURCE_DIR}/README.md)
     set(doxyfile_in ${CMAKE_CURRENT_SOURCE_DIR}/Doxyfile.in)
     set(doxyfile ${CMAKE_CURRENT_BINARY_DIR}/Doxyfile)
     configure_file(${doxyfile_in} ${doxyfile} @ONLY)
 
-    # Doxygen Output
+    # Doxygen Command
     set(DOXYGEN_OUTPUT_DIR ${CMAKE_BINARY_DIR}/doxygen)
     file(MAKE_DIRECTORY ${DOXYGEN_OUTPUT_DIR})
-    # Copy files to index folder for markdown file linkages
-    file(COPY ${CMAKE_CURRENT_SOURCE_DIR} DESTINATION ${DOXYGEN_OUTPUT_DIR}/html)
-    set(DOXYGEN_INDEX_FILE ${DOXYGEN_OUTPUT_DIR}/html/index.html)
 
-    add_custom_target(doxygen ALL
-        COMMAND ${DOXYGEN_EXECUTABLE} ${doxyfile}
+    add_custom_target(doxygen ALL ${DOXYGEN_EXECUTABLE} ${doxyfile}
+        # Copy files in docs folder to html base folder for markdown file linkages
+        COMMAND ${CMAKE_COMMAND} -E copy_directory
+            ${CMAKE_CURRENT_SOURCE_DIR}
+            ${DOXYGEN_OUTPUT_DIR}/html/docs
         WORKING_DIRECTORY ${DOXYGEN_OUTPUT_DIR}
         COMMENT "Generating API documentation with Doxygen"
         VERBATIM)
