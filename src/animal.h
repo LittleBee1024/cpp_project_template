@@ -29,7 +29,7 @@ public:
     * @param name The animal name
     */
    explicit Animal(const char* name);
-   ~Animal() = default;
+   virtual ~Animal() = default;
 
 public:
    /**
